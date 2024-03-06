@@ -1,0 +1,60 @@
+.container{
+    box-shadow: 0 0 2px 2px #c4c4c4;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.625rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.movie-image{
+    width: 20%;
+}
+
+.movie-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.movie-details{
+    width: 80%;
+    line-height: 2rem;
+}
+
+.movie-synopsis{
+    line-height: 1.5rem;
+}
+
+.card-icons{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.icon{
+    cursor: pointer;
+    
+}
+
+.icon:hover{
+    color: red;
+}
+
+@media screen and (max-width:949.5px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .movie-details{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:610.5px){
+    .movie-image{
+        width: 40%;
+    }
+}
+
